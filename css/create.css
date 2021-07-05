@@ -1,0 +1,72 @@
+button,input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+  }
+  .background {
+    width: 100%;
+  }
+  
+  .screen {
+    position: relative;
+    background: cornsilk;
+    border-radius: 15px;
+    box-shadow: 10px 15px 15px 0px rgba(0, 0, 0, .25);
+  }
+  .screen-body{
+    padding: 20px 0px;
+  }
+  .screen-body-item {
+    padding: 40px;
+  }
+  img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 10%;
+      border-radius: 50%;
+  }
+  .app-form-group {
+    margin-bottom: 15px;
+    
+  }
+  .app-form-group.button {
+    margin-bottom: 0;
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+  }
+  .app-form-control{
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #4C4B4B;
+    color: #4C4B4B;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+
+  .app-form-button {
+    background: none;
+    margin-left: 50px;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .app-form-button:hover {
+    color: #262626;
+  }
+  .symbol{
+    margin: auto;
+    padding: 2px;
+  }
